@@ -36,9 +36,13 @@ By adding these parsers after your command, then it works, for example `python3 
 
 To customize the code with your data:
 + First, you need to get a set of sensitive entities. Please refer to the following tool-kits where you can customize the set: 
+
 (1) Spacy: https://spacy.io/api/data-formats#named-entities (Demo: https://explosion.ai/demos/displacy-ent)
+
 (2) Stanza: https://spacy.io/universe/project/spacy-stanza
+
 (3) Microsoft Presidio: https://microsoft.github.io/presidio/ (Demo: https://presidio-demo.azurewebsites.net/)
+
 + After that, consider the sensitive entity set as one of the inputs in our UeDP mechanism.
 
 
